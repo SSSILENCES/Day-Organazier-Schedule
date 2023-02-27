@@ -1,0 +1,64 @@
+:root {
+    --saved-color: rgb(224, 4, 4, 0.5); 
+}
+
+h1 {
+    text-align: center;
+}
+
+#timer { 
+   
+    margin-left: 850px;
+
+}
+
+#Calendar-inputs {
+    position: absolute; left: 150px;
+
+}
+
+
+#calendar-aside-time {
+    position: absolute; bottom: 125px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+}
+
+
+#onesave {
+position: absolute; top:250px;
+left: 1500px;
+}
+
+#twosave {
+    position: absolute; top:320px;
+left: 1500px;
+}
+
+
+#threesave  {
+    position: absolute; top:390px;
+    left: 1500px;
+}
+
+#foursave  {
+    position: absolute; top:460px;
+    left: 1500px;
+}
+#fivesave  {
+    position: absolute; top:540px;
+    left: 1500px;
+}
+#sixsave  {
+    position: absolute; top:610px;
+    left: 1500px;
+}
+#sevensave  {
+    position: absolute; top:680px;
+    left: 1500px;
+}
+#eightsave  {
+    position: absolute; top:750px;
+    left: 1500px;
+}
+
