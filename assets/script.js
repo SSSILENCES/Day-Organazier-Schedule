@@ -1,5 +1,19 @@
-// Timer
-$('#timer').text(dayjs().format('MMM D, YYYY'));
+
+// Get the current date and time as a dayjs object
+var currentTime = dayjs();
+
+// Format the date and time as text
+var formattedTime = currentTime.format('MMM D, YYYY');
+
+// Get the hours from the dayjs object
+var hours = currentTime.hour();
+var h3 = $('#timer')
+
+h3.text(formattedTime)
+
+
+
+
 
 //  When Button Clicked save the input value and set the background color as var '--saved-color'
 $('#onesave').click(function () {
@@ -8,17 +22,17 @@ $('#onesave').click(function () {
     localStorage.setItem('onesave', onesave);
    
     
-    $("#one").css("background-color", "var(--saved-color)");
+
 
 });
+
 $('#twosave').click(function () {
 
 
     var twosave = $('#two').val();
     localStorage.setItem('twosave', twosave);
 
-   
-    $("#two").css("background-color", "var(--saved-color)");
+ 
 
 });
 $('#threesave').click(function () {

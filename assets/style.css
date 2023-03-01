@@ -1,5 +1,7 @@
 :root {
-    --saved-color: rgb(224, 4, 4, 0.5); 
+    --pastime-color: rgb(224, 4, 4, 0.5); 
+    --currentime-color: rgb(82, 82, 82, 0.5);
+    --aheadtime-color: rgb(43, 255, 0, 0.5);
 }
 
 h1 {
@@ -19,7 +21,7 @@ h1 {
 
 
 #calendar-aside-time {
-    position: absolute; bottom: 125px;
+    position: absolute; bottom: 175px;
     margin-bottom: 1px;
     margin-left: 10px;
 }
@@ -61,4 +63,5 @@ left: 1500px;
     position: absolute; top:750px;
     left: 1500px;
 }
+
 
