@@ -1,0 +1,88 @@
+/* Color variables*/
+:root {
+    --currentime-color: rgb(224, 4, 4, 0.5); 
+    --pastime-color: rgb(82, 82, 82, 0.5);
+    --aheadtime-color: rgb(43, 255, 0, 0.5);
+}
+/* h1 attributes*/
+h1 {
+    text-align: center;
+}
+/* dayjs content*/
+#timer { 
+    
+    margin-left: 850px;
+    
+}
+/* text input attributes*/
+#Calendar-inputs  {
+    position: absolute; left: 150px;
+    
+    
+}
+
+
+/* calendar aside time attributes*/
+#calendar-aside-time {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+    position: absolute; 
+    
+    margin-left: 20px;
+    margin-top: 10px ;
+
+}
+
+/* h6 attributes*/
+h6 {
+    font-size: 17px;
+}
+
+/* button attribute*/
+#onesave {
+    position: absolute; top:250px;
+    left: 1500px;
+}
+/* button attribute*/
+#twosave {
+    position: absolute; top:320px;
+    left: 1500px;
+}
+
+/* button attribute*/
+#threesave  {
+    position: absolute; top:390px;
+    left: 1500px;
+}
+/* button attribute*/
+#foursave  {
+    position: absolute; top:460px;
+    left: 1500px;
+}
+/* button attribute*/
+#fivesave  {
+    position: absolute; top:540px;
+    left: 1500px;
+}
+/* button attribute*/
+#sixsave  {
+    position: absolute; top:610px;
+    left: 1500px;
+}
+/* button attribute*/
+#sevensave  {
+    position: absolute; top:680px;
+    left: 1500px;
+}
+/* button attribute*/
+#eightsave  {
+    position: absolute; top:750px;
+    left: 1500px;
+}
+/* button attribute*/
+#ninesave {
+    position: absolute; top:835px;
+    left: 1500px;
+}
+
